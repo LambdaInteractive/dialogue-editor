@@ -4,7 +4,7 @@
 	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) <end_of_file>
 (index) // index position of array
 	<open_bracket> <int> <closed_bracket>
-(position) // x,y in where node is placed in editor
+(position) // x,y of where node is placed in editor
 	<open_paren> <int> <comma> <int> <closed_paren>
 (dialogue)
 	<quote> <string> <quote>
