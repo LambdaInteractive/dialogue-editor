@@ -1,1 +1,1 @@
-Documentation of decisions and reasoning behind the project
+Documentation of how this software works, and planning
