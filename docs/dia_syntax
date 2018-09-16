@@ -2,9 +2,9 @@
 (item)
 	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) (item)
 	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) <end_of_file>
-(index)
+(index) // index position of array
 	<open_bracket> <int> <closed_bracket>
-(position)
+(position) // x,y in where node is placed in editor
 	<open_paren> <int> <comma> <int> <closed_paren>
 (dialogue)
 	<quote> <string> <quote>
@@ -13,5 +13,5 @@
 (response)
 	<open_sharp> (dialogue) <closed_sharp>
 	<open_sharp> (dialogue) <closed_sharp>
-(colour)
+(colour) // colour of text
 	<percent> <float> <comma> <float> <comma> <float> <percent>
