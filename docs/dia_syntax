@@ -1,14 +1,17 @@
-<title> <colon> (item) <end of file>
+<title> <colon> (item)
 (item)
-	<new_line> (position)
+	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) (item)
+	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) <end_of_file>
 (index)
-	<open_bracket> <int> <closed_bracket> (position)
+	<open_bracket> <int> <closed_bracket>
 (position)
-	<open_paren> <int> <comma> <int> <closed_paren> (dialogue)
+	<open_paren> <int> <comma> <int> <closed_paren>
 (dialogue)
-	<quote> <string> <quote> (speaker)
+	<quote> <string> <quote>
 (speaker)
-  	<open_curl> <string> <closed_curl> (response)
+  	<open_curl> <string> <closed_curl>
 (response)
-	<open_sharp> (dialogue) <closed_sharp> (response)
-	<open_sharp> (dialogue) <closed_sharp> (item)
+	<open_sharp> (dialogue) <closed_sharp>
+	<open_sharp> (dialogue) <closed_sharp>
+(colour)
+	<percent> <float> <comma> <float> <comma> <float> <percent>
