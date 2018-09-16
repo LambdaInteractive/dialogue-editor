@@ -13,5 +13,3 @@
 (response)
 	<open_sharp> (dialogue) <closed_sharp>
 	<open_sharp> (dialogue) <closed_sharp>
-(colour) // colour of text
-	<percent> <float> <comma> <float> <comma> <float> <percent>
