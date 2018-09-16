@@ -11,4 +11,4 @@
 	<open_sharp> (dialogue) <closed_sharp> (response)
 	<open_sharp> (dialogue) <closed_sharp> (item)
 (speaker)
-  <open_curl> <string> <closed_curl> (response)
+  	<open_curl> <string> <closed_curl> (response)
