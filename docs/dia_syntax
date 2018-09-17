@@ -1,7 +1,7 @@
 <title> <colon> (item)
 (item)
-	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) (item)
-	<new_line> (index) (position) (dialogue) (speaker) (response) (colour) <end_of_file>
+	<new_line> (index) (position) (dialogue) (speaker) (response) (item)
+	<new_line> (index) (position) (dialogue) (speaker) (response) <end_of_file>
 (index) // index position of array
 	<open_bracket> <int> <closed_bracket>
 (position) // x,y of where node is placed in editor
