@@ -1,4 +1,4 @@
-<title> <colon> (item)
+<title> <semi-colon> (item)
 (item)
 	<new_line> (index) (position) (dialogue) (speaker) (response) (item)
 	<new_line> (index) (position) (dialogue) (speaker) (response) <end_of_file>
