@@ -11,5 +11,6 @@
 (speaker)
   	<open_curl> <string> <closed_curl>
 (response)
-	<open_sharp> (dialogue) <closed_sharp> (response)
+	<open_sharp> (dialogue) <closed_sharp> (index) (response)
+	<open_sharp> (dialogue) <closed_sharp> (index)
 	<open_sharp> (dialogue) <closed_sharp>
